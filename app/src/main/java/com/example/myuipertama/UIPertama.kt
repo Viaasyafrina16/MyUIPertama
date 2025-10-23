@@ -133,6 +133,21 @@ fun ActivitasPertama(modifier: Modifier) {
                 containerColor = Color(0xFF2E7D32)
             )
         ){
+            Row (){
+                val gambar = painterResource(id = R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(size = 100.dp)
+                        .padding(all = 5.dp)
+                )
+                Spacer(modifier = Modifier.width(width = 30.dp))
+                Column(){
+
+                }
+
+            }
 
         }
         Box(

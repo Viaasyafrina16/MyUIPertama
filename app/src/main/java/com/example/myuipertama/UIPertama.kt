@@ -145,7 +145,7 @@ fun ActivitasPertama(modifier: Modifier) {
                 Spacer(modifier = Modifier.width(width = 30.dp))
                 Column(){
                     Text(
-                        text = "Putri",
+                        text = "Rangga",
                         fontSize = 25.sp,
                         fontWeight = FontWeight.Bold,
                         color = Color.White,

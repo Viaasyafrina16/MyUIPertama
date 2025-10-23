@@ -108,6 +108,14 @@ fun ActivitasPertama(modifier: Modifier) {
                         modifier= Modifier.padding(top = 15.dp)
                     )
 
+                    Text(
+                        text = "Gamping",
+                        fontSize = 18.sp,
+                        color = Color.Cyan,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
+
+
                 }
             }
 

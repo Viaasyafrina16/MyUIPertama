@@ -145,7 +145,7 @@ fun ActivitasPertama(modifier: Modifier) {
                 Spacer(modifier = Modifier.width(width = 30.dp))
                 Column(){
                     Text(
-                        text = "Isi Nama",
+                        text = "Putri",
                         fontSize = 25.sp,
                         fontWeight = FontWeight.Bold,
                         color = Color.White,
@@ -153,7 +153,7 @@ fun ActivitasPertama(modifier: Modifier) {
                     )
 
                     Text(
-                        text = "Isi Alamat",
+                        text = "",
                         fontSize = 18.sp,
                         color = Color.Cyan,
                         modifier = Modifier.padding(top = 5.dp)
@@ -168,6 +168,7 @@ fun ActivitasPertama(modifier: Modifier) {
                 }
             }
         }
+
         Box(
             modifier = Modifier
                 .fillMaxSize()

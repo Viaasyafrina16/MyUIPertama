@@ -103,7 +103,7 @@ fun ActivitasPertama(modifier: Modifier) {
                     Text(
                         text = stringResource(id = R.string.nama_card2),
                         fontSize = 25.sp,
-                        fontWeight = FontWeight.Bold,
+                        fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier= Modifier.padding(top = 15.dp)
                     )
@@ -116,7 +116,7 @@ fun ActivitasPertama(modifier: Modifier) {
                     )
 
                     Text(
-                        text = "085875438907",
+                        text = stringResource(id = R.string.nohp_card2),
                         fontSize = 18.sp,
                         color= Color.Cyan,
                         modifier = Modifier.padding(top = 5.dp)
@@ -145,22 +145,22 @@ fun ActivitasPertama(modifier: Modifier) {
                 Spacer(modifier = Modifier.width(width = 30.dp))
                 Column(){
                     Text(
-                        text = "Rangga",
+                        text = stringResource(id = R.string.nama_card3),
                         fontSize = 25.sp,
-                        fontWeight = FontWeight.Bold,
+                        fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
 
                     Text(
-                        text = "Seturan",
+                        text = stringResource(id = R.string.alamat_card3),
                         fontSize = 18.sp,
                         color = Color.Cyan,
                         modifier = Modifier.padding(top = 5.dp)
                     )
 
                     Text(
-                        text = "0876543218",
+                        text = stringResource(id = R.string.nohp_card3),
                         fontSize = 18.sp,
                         color = Color.Cyan,
                         modifier = Modifier.padding(top = 5.dp)

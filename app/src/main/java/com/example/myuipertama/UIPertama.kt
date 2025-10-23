@@ -115,9 +115,24 @@ fun ActivitasPertama(modifier: Modifier) {
                         modifier = Modifier.padding(top = 5.dp)
                     )
 
-
+                    Text(
+                        text = "085875438907",
+                        fontSize = 18.sp,
+                        color= Color.Cyan,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
                 }
             }
+        }
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(fraction = 1f)
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color(0xFF2E7D32)
+            )
+        ){
 
         }
         Box(

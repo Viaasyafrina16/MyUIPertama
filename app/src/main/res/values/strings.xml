@@ -4,5 +4,13 @@
     <string name="univ">Universitas Muhammdiyah Yogyakarta</string>
     <string name="nama">Syafrina Metavianida</string>
     <string name="alamat">Turi,sleman</string>
+    <string name="nama_card2">Zavira</string>
+    <string name="alamat_card2">Gamping</string>
+    <string name="nohp_card2">085875438907</string>
+    <string name="nama_card3">Rangga</string>
+    <string name="alamat_card3">Seturan</string>
+    <string name="nohp_card3">0876543218</string>
     <string name="copy">copyright, 2025</string>
+
+
 </resources>

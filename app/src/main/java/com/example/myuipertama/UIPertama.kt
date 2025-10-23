@@ -1,5 +1,6 @@
 package com.example.myuipertama
 
+import android.app.Activity
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -28,7 +29,7 @@ import androidx.compose.ui.unit.sp
 
 
 @Composable
-fun ActivitasPertama(modifier: Modifier) {
+fun ActivityPertama(modifier: Modifier) {
     Column(
         modifier = Modifier.padding(top = 100.dp)
             .fillMaxSize(),

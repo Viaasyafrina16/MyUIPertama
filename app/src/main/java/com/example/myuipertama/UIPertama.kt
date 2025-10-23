@@ -101,7 +101,7 @@ fun ActivitasPertama(modifier: Modifier) {
                 Spacer(modifier = Modifier.width(width = 30.dp))
                 Column() {
                     Text(
-                        text = "Zavira",
+                        text = stringResource(id = R.string.nama_card2),
                         fontSize = 25.sp,
                         fontWeight = FontWeight.Bold,
                         color = Color.White,

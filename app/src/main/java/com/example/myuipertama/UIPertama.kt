@@ -109,7 +109,7 @@ fun ActivitasPertama(modifier: Modifier) {
                     )
 
                     Text(
-                        text = "Gamping",
+                        text = stringResource(id = R.string.alamat_card2),
                         fontSize = 18.sp,
                         color = Color.Cyan,
                         modifier = Modifier.padding(top = 5.dp)

@@ -153,7 +153,7 @@ fun ActivitasPertama(modifier: Modifier) {
                     )
 
                     Text(
-                        text = "",
+                        text = "Seturan",
                         fontSize = 18.sp,
                         color = Color.Cyan,
                         modifier = Modifier.padding(top = 5.dp)
